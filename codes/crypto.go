@@ -19,7 +19,6 @@ func encrypt() {
 
 	//generate a new aes cipher using our 32 byte long key
 	c, err := aes.NewCipher(secretKey)
-	// if there are any errors, handle them
 
 	if err != nil {
 		log.Fatal(err)
@@ -95,6 +94,6 @@ func decryption(){
 
 
 func main() {
-	//encrypt()
-	decryption()
+	encrypt()
+	//decryption()
 }
