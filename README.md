@@ -1,1 +1,1 @@
-# learning-gopher
+# learning-go
