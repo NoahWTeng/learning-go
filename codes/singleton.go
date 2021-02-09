@@ -38,6 +38,9 @@ func main()  {
 
 	fmt.Println("This is", s3["hello"])
 
+	fmt.Printf("%pn ", s)
+	fmt.Printf("%pn ", s2)
+	fmt.Printf("%pn ", s3)
 }
 
 
